@@ -1,1 +1,1 @@
-# Psythyst
+# Psythyst.Core.Cli
