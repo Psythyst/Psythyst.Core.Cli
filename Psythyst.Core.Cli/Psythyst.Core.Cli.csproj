@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Psythyst.Core\Psythyst\Psythyst.csproj" />
+    <ProjectReference Include="..\Psythyst.Core\Psythyst.Core\Psythyst.Core.csproj" />
+    <ProjectReference Include="..\Psythyst.Core.Data\Psythyst.Core.Data\Psythyst.Core.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="2.0.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+<PropertyGroup>
+  <VersionPrefix>0.4.0</VersionPrefix>
+  <VersionSuffix>beta</VersionSuffix>
+</PropertyGroup>
+
+<PropertyGroup>
+    <Title>Psythyst.Core.Cli</Title>
+    <PackageId>Psythyst.Core.Cli</PackageId>
+    <PackageVersion>0.4.0-beta1</PackageVersion>
+    <PackageProjectUrl>https://github.com/Psythyst/Psythyst.Core.Cli</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Psythyst/Psythyst.Core.Cli/blob/develop/LICENCE.txt</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Psythyst/Psythyst.Core.Cli</RepositoryUrl>
+    <Authors>SirMetathyst</Authors>
+    <Description>Psythyst CodeGenerator CLI Application</Description>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) Alexander Hunt.</Copyright>
+    <PackageTags>CodeGenerator,Psythyst,Cli,Application</PackageTags>
+</PropertyGroup>
+
+</Project>

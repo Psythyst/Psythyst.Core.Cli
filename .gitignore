@@ -1,0 +1,10 @@
+[Dd]ebug/
+[Rr]elease/
+[Pp]ublish
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Nn]uget/
+
+.vs/
+.vscode/

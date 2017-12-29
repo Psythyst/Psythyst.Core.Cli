@@ -1,0 +1,1 @@
+docker build -t psythyst/psythyst-cli:latest .
