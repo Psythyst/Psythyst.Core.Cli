@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Psythyst.Core\Psythyst\Psythyst.csproj" />
+    <ProjectReference Include="..\Psythyst.Core\Psythyst\Psythyst\Psythyst.csproj" />
     <ProjectReference Include="..\Psythyst.Core\Psythyst.Core\Psythyst.Core.csproj" />
     <ProjectReference Include="..\Psythyst.Core.Data\Psythyst.Core.Data\Psythyst.Core.Data.csproj" />
   </ItemGroup>

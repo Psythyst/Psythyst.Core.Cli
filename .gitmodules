@@ -1,0 +1,6 @@
+[submodule "Psythyst.Core.Data"]
+	path = Psythyst.Core.Data
+	url = https://github.com/Psythyst/Psythyst.Core.Data.git
+[submodule "Psythyst.Core"]
+	path = Psythyst.Core
+	url = https://github.com/Psythyst/Psythyst.Core.git
