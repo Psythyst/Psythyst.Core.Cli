@@ -88,8 +88,8 @@ namespace Psythyst.Core.Cli
             var Parser = new CommandParser(false);
 
             //Parser.FullName = "Spark CLI";
-            Parser.Name = "Spark";
-            Parser.Description = "Entitas CodeGenerator.";    
+            Parser.Name = "Psythyst";
+            Parser.Description = "Psythyst-Entitas-CodeGenerator.";    
 
 
             Parser.Command("Generate", GenerateCommand, false); 

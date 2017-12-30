@@ -1,1 +1,1 @@
-docker build -t psythyst/psythyst-cli:latest .
+docker build -t psythyst/psythyst-cli:latest -f ./Psythyst.Base.Local .

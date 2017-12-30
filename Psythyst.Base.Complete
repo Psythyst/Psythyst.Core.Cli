@@ -1,0 +1,10 @@
+FROM microsoft/dotnet:sdk AS Build
+
+# Install Git
+RUN apt-get update && apt-get install git
+
+# Pull & Build Psythyst
+WORKDIR /
+RUN git clone -b v1.0.0 https://github.com/Psythyst/Psythyst.Core.Cli.git
+RUN dotnet restore
+RUN dotnet publish -c Release -o ./Publish

@@ -1,0 +1,15 @@
+FROM microsoft/dotnet:sdk AS Build
+
+# Build Psythyst
+WORKDIR /
+COPY ./ ./
+RUN dotnet restore
+RUN dotnet publish -c Release -o ./Publish
+
+# Configure Runtime
+FROM microsoft/dotnet:runtime
+COPY --from=build /Psythyst.Core.Cli/Publish /Psythyst
+
+WORKDIR /Plugin
+WORKDIR /Project
+ENTRYPOINT ["dotnet", "/Psythyst/Psythyst.Core.Cli.dll"]
